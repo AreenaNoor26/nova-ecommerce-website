@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaCart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>NovaCart</h2>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search products...">
+        </div>
+
+        <div class="cart-icon">
+            🛒 <span id="cartCount">0</span>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <h1>Shop Future Fashion</h1>
+            <p>Premium products with modern style</p>
+            <button>Explore Now</button>
+        </div>
+    </section>
+</header>
+
+<section class="filters">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="fashion">Fashion</button>
+    <button class="filter-btn" data-category="electronics">Electronics</button>
+</section>
+
+<section class="products" id="productContainer"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
